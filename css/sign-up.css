@@ -1,0 +1,183 @@
+body {
+  background-color: pink;
+}
+
+.sign-up-page {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+.sign-up-page,
+.sign-up-page * {
+  box-sizing: border-box;
+}
+.sign-up-page {
+  background: #ffffff;
+  width: 358px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.main-container {
+  background: #a2a0ff;
+  padding: 11px 11px 0px 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 640px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo-container {
+  padding: 12px 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-6 {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 280px;
+  height: 72px;
+  position: relative;
+}
+.form-container {
+  padding: 5px 27px 5px 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.form-label {
+  color: #ffffff;
+  text-align: left;
+  font: 700 22px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input {
+  background: #ffffff;
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 273px;
+  height: 64px;
+  position: relative;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.sign-up-container {
+  flex-shrink: 0;
+  width: 337px;
+  height: 88px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-7 {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 8px;
+  top: 6px;
+}
+.form-btn {
+  background: #ff0000;
+  border-radius: 15px;
+  flex-shrink: 0;
+  width: 300px;
+  height: 61px;
+  position: relative;
+}
+.frame-8 {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 27px;
+  top: 19px;
+}
+.signup {
+  color: #ffffff;
+  text-align: center;
+  font: 700 30px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-btn-container {
+  padding: 12px 5px 12px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.login {
+  text-align: left;
+  font: 400 15px "undefined", sans-serif;
+  opacity: 0.4000000059604645;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login-span {
+  color: #ffffff;
+  font: 600 15px "Roboto", sans-serif;
+}
+.login-span2 {
+  color: #ffffff;
+  font: 600 15px "Inter", sans-serif;
+}
+.login-span3 {
+  color: #000000;
+  font: 600 15px "Inter", sans-serif;
+}
+
+.login-span3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.input {
+  font-size: 22px;
+}

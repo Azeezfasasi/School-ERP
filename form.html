@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #ccc;
+        }
+
+        .form-container {
+            display: block;
+            width: 30%;
+            margin: 100px auto 0 auto;
+            text-align: center;
+            background-color: #ccc;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 6px 4px 10px 2px gray, 0px 0px 8px 6px white
+        }
+
+        .logo {
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 6px 4px 6px 2px grey, 0px 0px 8px 4px white;
+            border-radius: 50%;
+        }
+
+        .title {
+            color: blue;
+            font-weight: bolder;
+        }
+
+        input[type=email], input[type=password] {
+            width: 90%;
+            border-radius: 25px;
+            background-color: #ccc;
+            border: 5px inset white;
+            padding: 10px;
+            margin: 5px 0 10px 0;
+        }
+
+        .send {
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            width: 90%;
+            border: none;
+            padding: 10px 0;
+            border-radius: 25px;
+            margin-top: 5px;
+            box-shadow: 0 2px 2px 0 grey;
+        }
+
+        @media (max-width: 600px) {
+            .form-container {
+                width: 60%;
+            }
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="dashboard.html" method="post">
+            <img class="logo" src="img/cropped-sense_logo-removebg-preview.png" alt="My logo">
+            <h2 class="title">School ERP</h2>
+
+            <label style="text-align: center;" for="email">EMAIL</label>
+            <input type="email" id="email" required>
+
+            <label style="text-align: center;" for="pwd">Password</label>
+
+            <input type="password" id="pwd" required>
+
+            <input class="send" onclick="myFunctionn" type="submit" value="LOGIN">
+        </form>
+    </div>
+
+    <script>
+        var a = document.getElementById('email');
+        var b = document.getElementById('pwd');
+
+        function myFunction() {
+            if (a = " ") {
+                parent.location("dashboard.html");
+            }
+        }
+    </script>
+</body>
+</html>
