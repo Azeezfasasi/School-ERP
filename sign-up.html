@@ -1,53 +1,36 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Signup - School ERP</title>
     <link rel="stylesheet" href="css/sign-up.css">
 </head>
 <body>
-  <div class="sign-up-page">
-    <div class="main-container">
-      <div class="logo-container">
-        <div class="frame-6">
-          <img class="logo" src="img/logo.png" />
-        </div>
-      </div>
-  
-      <div class="form-container">
-        <div class="form-label">User Name</div>
-        <input class="input" type="text" required>
-  
-        <div class="form-label">Email Address</div>
-        <input class="input" type="text" required>
-  
-        <div class="form-label">Password</div>
-        <input class="input" type="text" required>
-      </div>
-  
-      <div class="sign-up-container">
-        <div class="frame-7">
-          <div class="form-btn"></div>
-        </div>
+    <div class="form-container">
+        <form action="dashboard.html" method="post">
+            <img class="logo" src="img/logo.png" alt="My logo">
+              <br><br>
+              <label style="text-align: center;" for="email">FULL NAME</label>
+
+            <input type="text" required>
+
+            <label style="text-align: center;" for="email">EMAIL</label>
+            <input type="email" required>
+
+            <label style="text-align: center;" for="pwd">Password</label>
+
+            <input type="password" required>
+
+           <input class="send" type="submit" value="CREATE ACCOUNT">
+           
+        </form>
         
-        <a href="dashboard.html">
-        <div class="frame-8">
-          <div class="signup">CREAT ACCOUNT</div>
-        </div></a>
-      </div>
-  
-      <div class="sub-btn-container">
-        <div class="login">
-          <span
-            ><span class="login-span">Already have an account?</span
-            ><span class="login-span2"> </span
-            ><span class="login-span3"><a href="index.html">Login</a></span></span
-          >
+        <div class="sub-btn">
+          <p>Dont have an account?<a class="signup" href="index.html"> Signup</a></p>
         </div>
-      </div>
     </div>
-  </div>
-  
 </body>
 </html>
